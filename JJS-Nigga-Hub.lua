@@ -8,7 +8,7 @@ if success and result and #result > 0 then
         writefile("JJS-Nigga-Hub.lua", result)
         game:GetService("StarterGui"):SetCore("SendNotification", {
             Title = "JJS Nigga Hub",
-            Text = "Saved successfully to JJS-AC-Bypass.lua!",
+            Text = "Saved successfully to JJS-Nigga-Hub.lua!",
             Duration = 5
         })
     else
