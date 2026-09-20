@@ -5,23 +5,23 @@ end)
 
 if success and result and #result > 0 then
     if writefile then
-        writefile("JJS-Nigga-Hub.lua", result)
+        writefile("JJS-Dream-Hub.lua", result)
         game:GetService("StarterGui"):SetCore("SendNotification", {
-            Title = "JJS Nigga Hub",
-            Text = "Saved successfully to JJS-Nigga-Hub.lua!",
+            Title = "JJS Dream Hub",
+            Text = "Saved successfully to JJS-Dream-Hub.lua!",
             Duration = 5
         })
     else
         setclipboard(result)
         game:GetService("StarterGui"):SetCore("SendNotification", {
-            Title = "JJS Nigga Hub",
+            Title = "JJS Dream Hub",
             Text = "Successfully copied to Clipboard!",
             Duration = 5
         })
     end
 else
     game:GetService("StarterGui"):SetCore("SendNotification", {
-        Title = "JJS Nigga Hub",
+        Title = "JJS Dream Hub",
         Text = "Failed to download!",
         Duration = 5
     })
